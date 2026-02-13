@@ -3,7 +3,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+
   <title>Client Follow-Up Tracker</title>
+
+  <!-- Canonical homepage URL (important for Google reviewers) -->
+  <link rel="canonical" href="https://chukwumaesomchi1-boop.github.io/followup-tracker-site/" />
+
   <style>
     body{font-family:Arial,system-ui,sans-serif;margin:0;background:#f6f7fb;color:#0f172a}
     .wrap{max-width:900px;margin:0 auto;padding:40px 18px}
@@ -19,37 +24,38 @@
     .muted{font-size:12px;color:#64748b;margin-top:18px}
   </style>
 </head>
+
 <body>
   <div class="wrap">
     <div class="card">
+
       <span class="pill">Official OAuth App Homepage</span>
 
       <h1>Client Follow-Up Tracker</h1>
 
       <p>
-        <strong>Client Follow-Up Tracker</strong> is a productivity application designed to help users manage scheduled
+        <strong>Client Follow-Up Tracker</strong> is a productivity application that helps users manage scheduled
         client follow-ups and send reminder emails directly from their own Gmail account.
       </p>
 
       <h2>What the app does</h2>
       <ul>
-        <li>Helps users schedule and track client follow-ups</li>
-        <li>Allows users to send follow-up emails using Gmail</li>
-        <li>Prevents missed or delayed client communications</li>
+        <li>Allows users to schedule and track client follow-ups</li>
+        <li>Sends follow-up emails using the user’s connected Gmail account</li>
+        <li>Helps prevent missed or delayed client communications</li>
       </ul>
 
       <h2>Why we request Google / Gmail access</h2>
       <p>
-        This application uses Google OAuth and Gmail API access <strong>only</strong> to allow users to send emails
-        from within the app using their own Gmail account. Emails are sent only when the user initiates or schedules
-        a follow-up action.
+        This application uses Google OAuth and Gmail API access <strong>only</strong> to send emails on behalf of the user.
+        Emails are sent exclusively when the user initiates or schedules a follow-up action within the app.
       </p>
 
       <h2>How user data is handled</h2>
       <ul>
-        <li>Email content is used only at the time an email is sent</li>
+        <li>Email content is used only at the moment an email is sent</li>
         <li>The app does not read, scan, or analyze users’ inboxes</li>
-        <li>Email data is not stored after sending</li>
+        <li>Email content is not stored after sending</li>
         <li>User data is not sold, shared, or used for advertising</li>
         <li>User data is not used for AI or machine learning training</li>
       </ul>
@@ -61,17 +67,20 @@
       <h2>Transparency & compliance</h2>
       <p>
         Client Follow-Up Tracker complies with the Google API Services User Data Policy and requests only the
-        minimum scopes required for core functionality.
+        minimum scopes required to provide its core functionality.
       </p>
 
+      <h2>Legal</h2>
       <p class="links">
         <a href="https://chukwumaesomchi1-boop.github.io/followup-tracker-site/privacy.html">Privacy Policy</a>
         <a href="https://chukwumaesomchi1-boop.github.io/followup-tracker-site/terms.html">Terms of Service</a>
       </p>
 
       <p class="muted">
-        Contact: <a href="mailto:followuptracker.mail@gmail.com">followuptracker.mail@gmail.com</a>
+        Contact:
+        <a href="mailto:followuptracker.mail@gmail.com">followuptracker.mail@gmail.com</a>
       </p>
+
     </div>
   </div>
 </body>
